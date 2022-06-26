@@ -10,6 +10,7 @@
   - [Setup iOS](#setup-ios)
   - [Typescript (optional)](#typescript-optional)
 - [Roadmap :running:](#roadmap-running)
+- [Screenshots](#screenshots)
 - [License :scroll:](#license-scroll)
 
 ---
@@ -108,6 +109,22 @@ _REMEMBER: the entry point file in the root of the project MUST be index.js_
 ✅ `UIKitten v5`<br />
 ✅ `Env` variables selection experimental way ⚗️⚗️⚗️<br />
 ✅ Typescript (optional use. Read the DOC above)<br />
+
+---
+
+## Screenshots
+
+<div align="center">
+    <img src="./screenshots/screenshot1.png" width="50%" />
+</div>
+
+<div align="center">
+    <img src="./screenshots/screenshot2.png" width="50%" /> 
+</div>
+
+<div align="center">
+    <img src="./screenshots/screenshot3.png" width="50%" />
+</div>
 
 ---
 

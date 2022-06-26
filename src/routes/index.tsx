@@ -1,5 +1,6 @@
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 import Homepage from '@scenes/Homepage';
+import PostDetails from '@scenes/PostDetails';
 import React, { FC } from 'react';
 import { routeOverlayOption } from './routeOptions';
 
@@ -12,6 +13,14 @@ export const MainStackScreen: FC = () => {
       <MainStack.Screen
         name="Home"
         component={Homepage}
+        options={{
+          headerShown: false,
+          ...TransitionPresets.SlideFromRightIOS,
+        }}
+      />
+      <MainStack.Screen
+        name="PostDetails"
+        component={PostDetails}
         options={{
           headerShown: false,
           ...TransitionPresets.SlideFromRightIOS,

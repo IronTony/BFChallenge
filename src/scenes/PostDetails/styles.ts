@@ -1,8 +1,13 @@
+import theme from '@theme';
 import { palette } from '@theme/colors';
 import { fonts } from '@theme/fonts';
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: theme.colors.primary,
+  },
+  content: {},
   CardContainer: {
     backgroundColor: palette.WHITE,
     padding: 15,

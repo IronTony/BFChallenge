@@ -1,0 +1,12 @@
+{
+  "common": {
+    "italian": "Italiano",
+    "english": "Inglese"
+  },
+  "Header": {
+    "back": "Indietro"
+  },
+  "PostDetails": {
+    "Title": "Dettaglio post"
+  }
+}

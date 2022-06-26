@@ -1,3 +1,4 @@
+import UserInfo from '@components/UserInfo';
 import { useNavigation } from '@react-navigation/native';
 import { Post } from '@redux/posts/types';
 import { GenericNavigationProps } from '@routes/types';
@@ -21,6 +22,8 @@ const SinglePostCard: FC<SinglePostCardProps> = item => {
       <TouchableOpacity onPress={onGoToDetails}>
         <Text style={styles.postTitle}>{item.title}</Text>
         <Text style={styles.postContent}>{item.body}</Text>
+
+        <UserInfo userId={item?.user_id} />
       </TouchableOpacity>
     </View>
   );
